@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-02-02">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="DARTH VADER" label="DARTH VADER" />
+      <node id="R2-D2" label="R2-D2" />
+      <node id="CHEWBACCA" label="CHEWBACCA" />
+      <node id="WATTO" label="WATTO" />
+      <node id="QUI-GON" label="QUI-GON" />
+      <node id="PADME" label="PADME" />
+      <node id="SEBULBA" label="SEBULBA" />
+      <node id="JAR JAR" label="JAR JAR" />
+      <node id="JIRA" label="JIRA" />
+      <node id="SHMI" label="SHMI" />
+      <node id="C-3PO" label="C-3PO" />
+      <node id="KITSTER" label="KITSTER" />
+      <node id="WALD" label="WALD" />
+      <node id="OBI-WAN" label="OBI-WAN" />
+      <node id="JABBA" label="JABBA" />
+      <node id="GREEDO" label="GREEDO" />
+      <node id="CAPTAIN PANAKA" label="CAPTAIN PANAKA" />
+      <node id="RIC OLIE" label="RIC OLIE" />
+      <node id="MACE WINDU" label="MACE WINDU" />
+      <node id="KI-ADI-MUNDI" label="KI-ADI-MUNDI" />
+      <node id="YODA" label="YODA" />
+      <node id="RABE" label="RABE" />
+      <node id="BOSS NASS" label="BOSS NASS" />
+      <node id="BRAVO TWO" label="BRAVO TWO" />
+      <node id="BRAVO THREE" label="BRAVO THREE" />
+      <node id="CAPTAIN TYPHO" label="CAPTAIN TYPHO" />
+      <node id="SIO BIBBLE" label="SIO BIBBLE" />
+      <node id="SOLA" label="SOLA" />
+      <node id="JOBAL" label="JOBAL" />
+      <node id="RUWEE" label="RUWEE" />
+      <node id="OWEN" label="OWEN" />
+      <node id="BERU" label="BERU" />
+      <node id="CLIEGG" label="CLIEGG" />
+      <node id="SUN RIT" label="SUN RIT" />
+      <node id="POGGLE" label="POGGLE" />
+      <node id="NUTE GUNRAY" label="NUTE GUNRAY" />
+      <node id="COUNT DOOKU" label="COUNT DOOKU" />
+      <node id="ODD BALL" label="ODD BALL" />
+      <node id="EMPEROR" label="EMPEROR" />
+      <node id="GENERAL GRIEVOUS" label="GENERAL GRIEVOUS" />
+      <node id="BAIL ORGANA" label="BAIL ORGANA" />
+      <node id="CLONE COMMANDER CODY" label="CLONE COMMANDER CODY" />
+      <node id="LEIA" label="LEIA" />
+      <node id="MOTTI" label="MOTTI" />
+      <node id="TARKIN" label="TARKIN" />
+      <node id="PIETT" label="PIETT" />
+      <node id="OZZEL" label="OZZEL" />
+      <node id="NEEDA" label="NEEDA" />
+      <node id="BOBA FETT" label="BOBA FETT" />
+      <node id="LANDO" label="LANDO" />
+      <node id="HAN" label="HAN" />
+      <node id="LUKE" label="LUKE" />
+      <node id="JERJERROD" label="JERJERROD" />
+      <node id="BB-8" label="BB-8" />
+      <node id="CAPTAIN ANTILLES" label="CAPTAIN ANTILLES" />
+      <node id="BIGGS" label="BIGGS" />
+      <node id="RIEEKAN" label="RIEEKAN" />
+      <node id="FINN" label="FINN" />
+      <node id="REY" label="REY" />
+      <node id="BALA-TIK" label="BALA-TIK" />
+      <node id="MAZ" label="MAZ" />
+      <node id="POE" label="POE" />
+      <node id="KYLO REN" label="KYLO REN" />
+      <node id="CAPTAIN PHASMA" label="CAPTAIN PHASMA" />
+      <node id="LOR SAN TEKKA" label="LOR SAN TEKKA" />
+      <node id="UNKAR PLUTT" label="UNKAR PLUTT" />
+      <node id="PK-4" label="PK-4" />
+      <node id="TC-14" label="TC-14" />
+      <node id="DOFINE" label="DOFINE" />
+      <node id="RUNE" label="RUNE" />
+      <node id="TEY HOW" label="TEY HOW" />
+      <node id="TARPALS" label="TARPALS" />
+      <node id="DARTH MAUL" label="DARTH MAUL" />
+      <node id="FODE/BEED" label="FODE/BEED" />
+      <node id="VALORUM" label="VALORUM" />
+      <node id="GENERAL CEEL" label="GENERAL CEEL" />
+      <node id="SENATOR ASK AAK" label="SENATOR ASK AAK" />
+      <node id="ORN FREE TAA" label="ORN FREE TAA" />
+      <node id="TAUN WE" label="TAUN WE" />
+      <node id="LAMA SU" label="LAMA SU" />
+      <node id="JANGO FETT" label="JANGO FETT" />
+      <node id="PLO KOON" label="PLO KOON" />
+      <node id="FANG ZAR" label="FANG ZAR" />
+      <node id="MON MOTHMA" label="MON MOTHMA" />
+      <node id="GIDDEAN DANU" label="GIDDEAN DANU" />
+      <node id="CLONE COMMANDER GREE" label="CLONE COMMANDER GREE" />
+      <node id="TION MEDON" label="TION MEDON" />
+      <node id="CAMIE" label="CAMIE" />
+      <node id="DODONNA" label="DODONNA" />
+      <node id="GOLD LEADER" label="GOLD LEADER" />
+      <node id="WEDGE" label="WEDGE" />
+      <node id="RED LEADER" label="RED LEADER" />
+      <node id="RED TEN" label="RED TEN" />
+      <node id="DERLIN" label="DERLIN" />
+      <node id="ZEV" label="ZEV" />
+      <node id="DACK" label="DACK" />
+      <node id="JANSON" label="JANSON" />
+      <node id="BIB FORTUNA" label="BIB FORTUNA" />
+      <node id="BOUSHH" label="BOUSHH" />
+      <node id="ADMIRAL ACKBAR" label="ADMIRAL ACKBAR" />
+      <node id="GENERAL HUX" label="GENERAL HUX" />
+      <node id="LIEUTENANT MITAKA" label="LIEUTENANT MITAKA" />
+      <node id="SNOKE" label="SNOKE" />
+      <node id="SNAP" label="SNAP" />
+      <node id="ADMIRAL STATURA" label="ADMIRAL STATURA" />
+      <node id="COLONEL DATOO" label="COLONEL DATOO" />
+      <node id="ELLO ASTY" label="ELLO ASTY" />
+      <node id="JESS" label="JESS" />
+      <node id="NIV LEK" label="NIV LEK" />
+      <node id="YOLO ZIFF" label="YOLO ZIFF" />
+    </nodes>
+    <edges>
+      <edge source="DARTH VADER" target="R2-D2" id="0" />
+      <edge source="DARTH VADER" target="CHEWBACCA" id="1" />
+      <edge source="DARTH VADER" target="WATTO" id="2" />
+      <edge source="DARTH VADER" target="QUI-GON" id="3" />
+      <edge source="DARTH VADER" target="PADME" id="4" />
+      <edge source="DARTH VADER" target="SEBULBA" id="5" />
+      <edge source="DARTH VADER" target="JAR JAR" id="6" />
+      <edge source="DARTH VADER" target="JIRA" id="7" />
+      <edge source="DARTH VADER" target="SHMI" id="8" />
+      <edge source="DARTH VADER" target="C-3PO" id="9" />
+      <edge source="DARTH VADER" target="KITSTER" id="10" />
+      <edge source="DARTH VADER" target="WALD" id="11" />
+      <edge source="DARTH VADER" target="OBI-WAN" id="12" />
+      <edge source="DARTH VADER" target="JABBA" id="13" />
+      <edge source="DARTH VADER" target="GREEDO" id="14" />
+      <edge source="DARTH VADER" target="CAPTAIN PANAKA" id="15" />
+      <edge source="DARTH VADER" target="RIC OLIE" id="16" />
+      <edge source="DARTH VADER" target="MACE WINDU" id="17" />
+      <edge source="DARTH VADER" target="KI-ADI-MUNDI" id="18" />
+      <edge source="DARTH VADER" target="YODA" id="19" />
+      <edge source="DARTH VADER" target="RABE" id="20" />
+      <edge source="DARTH VADER" target="BOSS NASS" id="21" />
+      <edge source="DARTH VADER" target="BRAVO TWO" id="22" />
+      <edge source="DARTH VADER" target="BRAVO THREE" id="23" />
+      <edge source="DARTH VADER" target="CAPTAIN TYPHO" id="24" />
+      <edge source="DARTH VADER" target="SIO BIBBLE" id="25" />
+      <edge source="DARTH VADER" target="SOLA" id="26" />
+      <edge source="DARTH VADER" target="JOBAL" id="27" />
+      <edge source="DARTH VADER" target="RUWEE" id="28" />
+      <edge source="DARTH VADER" target="OWEN" id="29" />
+      <edge source="DARTH VADER" target="BERU" id="30" />
+      <edge source="DARTH VADER" target="CLIEGG" id="31" />
+      <edge source="DARTH VADER" target="SUN RIT" id="32" />
+      <edge source="DARTH VADER" target="POGGLE" id="33" />
+      <edge source="DARTH VADER" target="NUTE GUNRAY" id="34" />
+      <edge source="DARTH VADER" target="COUNT DOOKU" id="35" />
+      <edge source="DARTH VADER" target="ODD BALL" id="36" />
+      <edge source="DARTH VADER" target="EMPEROR" id="37" />
+      <edge source="DARTH VADER" target="GENERAL GRIEVOUS" id="38" />
+      <edge source="DARTH VADER" target="BAIL ORGANA" id="39" />
+      <edge source="DARTH VADER" target="CLONE COMMANDER CODY" id="40" />
+      <edge source="DARTH VADER" target="LEIA" id="41" />
+      <edge source="DARTH VADER" target="MOTTI" id="42" />
+      <edge source="DARTH VADER" target="TARKIN" id="43" />
+      <edge source="DARTH VADER" target="PIETT" id="44" />
+      <edge source="DARTH VADER" target="OZZEL" id="45" />
+      <edge source="DARTH VADER" target="NEEDA" id="46" />
+      <edge source="DARTH VADER" target="BOBA FETT" id="47" />
+      <edge source="DARTH VADER" target="LANDO" id="48" />
+      <edge source="DARTH VADER" target="HAN" id="49" />
+      <edge source="DARTH VADER" target="LUKE" id="50" />
+      <edge source="DARTH VADER" target="JERJERROD" id="51" />
+      <edge source="R2-D2" target="CHEWBACCA" id="52" />
+      <edge source="R2-D2" target="BB-8" id="53" />
+      <edge source="R2-D2" target="OBI-WAN" id="54" />
+      <edge source="R2-D2" target="PADME" id="55" />
+      <edge source="R2-D2" target="QUI-GON" id="56" />
+      <edge source="R2-D2" target="WATTO" id="57" />
+      <edge source="R2-D2" target="C-3PO" id="58" />
+      <edge source="R2-D2" target="KITSTER" id="59" />
+      <edge source="R2-D2" target="JABBA" id="60" />
+      <edge source="R2-D2" target="EMPEROR" id="61" />
+      <edge source="R2-D2" target="CAPTAIN TYPHO" id="62" />
+      <edge source="R2-D2" target="BERU" id="63" />
+      <edge source="R2-D2" target="OWEN" id="64" />
+      <edge source="R2-D2" target="BAIL ORGANA" id="65" />
+      <edge source="R2-D2" target="YODA" id="66" />
+      <edge source="R2-D2" target="LUKE" id="67" />
+      <edge source="R2-D2" target="LEIA" id="68" />
+      <edge source="R2-D2" target="CAPTAIN ANTILLES" id="69" />
+      <edge source="R2-D2" target="BIGGS" id="70" />
+      <edge source="R2-D2" target="HAN" id="71" />
+      <edge source="R2-D2" target="LANDO" id="72" />
+      <edge source="CHEWBACCA" target="BB-8" id="73" />
+      <edge source="CHEWBACCA" target="OBI-WAN" id="74" />
+      <edge source="CHEWBACCA" target="C-3PO" id="75" />
+      <edge source="CHEWBACCA" target="LUKE" id="76" />
+      <edge source="CHEWBACCA" target="HAN" id="77" />
+      <edge source="CHEWBACCA" target="JABBA" id="78" />
+      <edge source="CHEWBACCA" target="LEIA" id="79" />
+      <edge source="CHEWBACCA" target="RIEEKAN" id="80" />
+      <edge source="CHEWBACCA" target="LANDO" id="81" />
+      <edge source="CHEWBACCA" target="BOBA FETT" id="82" />
+      <edge source="CHEWBACCA" target="FINN" id="83" />
+      <edge source="CHEWBACCA" target="REY" id="84" />
+      <edge source="CHEWBACCA" target="BALA-TIK" id="85" />
+      <edge source="CHEWBACCA" target="MAZ" id="86" />
+      <edge source="CHEWBACCA" target="POE" id="87" />
+      <edge source="CHEWBACCA" target="KYLO REN" id="88" />
+      <edge source="CHEWBACCA" target="CAPTAIN PHASMA" id="89" />
+      <edge source="WATTO" target="QUI-GON" id="90" />
+      <edge source="WATTO" target="PADME" id="91" />
+      <edge source="WATTO" target="C-3PO" id="92" />
+      <edge source="WATTO" target="KITSTER" id="93" />
+      <edge source="QUI-GON" target="NUTE GUNRAY" id="94" />
+      <edge source="QUI-GON" target="TC-14" id="95" />
+      <edge source="QUI-GON" target="OBI-WAN" id="96" />
+      <edge source="QUI-GON" target="JAR JAR" id="97" />
+      <edge source="QUI-GON" target="BOSS NASS" id="98" />
+      <edge source="QUI-GON" target="SIO BIBBLE" id="99" />
+      <edge source="QUI-GON" target="CAPTAIN PANAKA" id="100" />
+      <edge source="QUI-GON" target="PADME" id="101" />
+      <edge source="QUI-GON" target="RIC OLIE" id="102" />
+      <edge source="QUI-GON" target="SEBULBA" id="103" />
+      <edge source="QUI-GON" target="JIRA" id="104" />
+      <edge source="QUI-GON" target="SHMI" id="105" />
+      <edge source="QUI-GON" target="KITSTER" id="106" />
+      <edge source="QUI-GON" target="WALD" id="107" />
+      <edge source="QUI-GON" target="C-3PO" id="108" />
+      <edge source="QUI-GON" target="JABBA" id="109" />
+      <edge source="QUI-GON" target="GREEDO" id="110" />
+      <edge source="QUI-GON" target="EMPEROR" id="111" />
+      <edge source="QUI-GON" target="VALORUM" id="112" />
+      <edge source="QUI-GON" target="MACE WINDU" id="113" />
+      <edge source="QUI-GON" target="KI-ADI-MUNDI" id="114" />
+      <edge source="QUI-GON" target="YODA" id="115" />
+      <edge source="QUI-GON" target="RABE" id="116" />
+      <edge source="QUI-GON" target="BAIL ORGANA" id="117" />
+      <edge source="PADME" target="CAPTAIN PANAKA" id="118" />
+      <edge source="PADME" target="SIO BIBBLE" id="119" />
+      <edge source="PADME" target="JAR JAR" id="120" />
+      <edge source="PADME" target="SEBULBA" id="121" />
+      <edge source="PADME" target="JIRA" id="122" />
+      <edge source="PADME" target="SHMI" id="123" />
+      <edge source="PADME" target="C-3PO" id="124" />
+      <edge source="PADME" target="KITSTER" id="125" />
+      <edge source="PADME" target="JABBA" id="126" />
+      <edge source="PADME" target="FODE/BEED" id="127" />
+      <edge source="PADME" target="BOSS NASS" id="128" />
+      <edge source="PADME" target="OBI-WAN" id="129" />
+      <edge source="PADME" target="NUTE GUNRAY" id="130" />
+      <edge source="PADME" target="EMPEROR" id="131" />
+      <edge source="PADME" target="SOLA" id="132" />
+      <edge source="PADME" target="JOBAL" id="133" />
+      <edge source="PADME" target="RUWEE" id="134" />
+      <edge source="PADME" target="OWEN" id="135" />
+      <edge source="PADME" target="BERU" id="136" />
+      <edge source="PADME" target="CLIEGG" id="137" />
+      <edge source="PADME" target="MACE WINDU" id="138" />
+      <edge source="PADME" target="COUNT DOOKU" id="139" />
+      <edge source="PADME" target="SUN RIT" id="140" />
+      <edge source="PADME" target="POGGLE" id="141" />
+      <edge source="PADME" target="YODA" id="142" />
+      <edge source="PADME" target="BAIL ORGANA" id="143" />
+      <edge source="PADME" target="FANG ZAR" id="144" />
+      <edge source="PADME" target="MON MOTHMA" id="145" />
+      <edge source="PADME" target="GIDDEAN DANU" id="146" />
+      <edge source="PADME" target="CAPTAIN TYPHO" id="147" />
+      <edge source="SEBULBA" target="JAR JAR" id="148" />
+      <edge source="SEBULBA" target="SHMI" id="149" />
+      <edge source="SEBULBA" target="JABBA" id="150" />
+      <edge source="JAR JAR" target="OBI-WAN" id="151" />
+      <edge source="JAR JAR" target="TARPALS" id="152" />
+      <edge source="JAR JAR" target="BOSS NASS" id="153" />
+      <edge source="JAR JAR" target="SIO BIBBLE" id="154" />
+      <edge source="JAR JAR" target="CAPTAIN PANAKA" id="155" />
+      <edge source="JAR JAR" target="RIC OLIE" id="156" />
+      <edge source="JAR JAR" target="SHMI" id="157" />
+      <edge source="JAR JAR" target="KITSTER" id="158" />
+      <edge source="JAR JAR" target="WALD" id="159" />
+      <edge source="JAR JAR" target="JABBA" id="160" />
+      <edge source="JAR JAR" target="FODE/BEED" id="161" />
+      <edge source="JAR JAR" target="EMPEROR" id="162" />
+      <edge source="JAR JAR" target="VALORUM" id="163" />
+      <edge source="JAR JAR" target="GENERAL CEEL" id="164" />
+      <edge source="JAR JAR" target="CAPTAIN TYPHO" id="165" />
+      <edge source="JAR JAR" target="BAIL ORGANA" id="166" />
+      <edge source="JAR JAR" target="YODA" id="167" />
+      <edge source="JAR JAR" target="MACE WINDU" id="168" />
+      <edge source="JAR JAR" target="SENATOR ASK AAK" id="169" />
+      <edge source="JAR JAR" target="ORN FREE TAA" id="170" />
+      <edge source="SHMI" target="OBI-WAN" id="171" />
+      <edge source="SHMI" target="JABBA" id="172" />
+      <edge source="SHMI" target="KITSTER" id="173" />
+      <edge source="C-3PO" target="BB-8" id="174" />
+      <edge source="C-3PO" target="KITSTER" id="175" />
+      <edge source="C-3PO" target="OWEN" id="176" />
+      <edge source="C-3PO" target="BERU" id="177" />
+      <edge source="C-3PO" target="CLIEGG" id="178" />
+      <edge source="C-3PO" target="OBI-WAN" id="179" />
+      <edge source="C-3PO" target="EMPEROR" id="180" />
+      <edge source="C-3PO" target="BAIL ORGANA" id="181" />
+      <edge source="C-3PO" target="CAPTAIN TYPHO" id="182" />
+      <edge source="C-3PO" target="YODA" id="183" />
+      <edge source="C-3PO" target="CAPTAIN ANTILLES" id="184" />
+      <edge source="C-3PO" target="LUKE" id="185" />
+      <edge source="C-3PO" target="LEIA" id="186" />
+      <edge source="C-3PO" target="HAN" id="187" />
+      <edge source="C-3PO" target="BIGGS" id="188" />
+      <edge source="C-3PO" target="RED LEADER" id="189" />
+      <edge source="C-3PO" target="DERLIN" id="190" />
+      <edge source="C-3PO" target="RIEEKAN" id="191" />
+      <edge source="C-3PO" target="LANDO" id="192" />
+      <edge source="C-3PO" target="BOBA FETT" id="193" />
+      <edge source="C-3PO" target="BIB FORTUNA" id="194" />
+      <edge source="C-3PO" target="JABBA" id="195" />
+      <edge source="C-3PO" target="BOUSHH" id="196" />
+      <edge source="C-3PO" target="MON MOTHMA" id="197" />
+      <edge source="C-3PO" target="ADMIRAL ACKBAR" id="198" />
+      <edge source="C-3PO" target="POE" id="199" />
+      <edge source="C-3PO" target="SNAP" id="200" />
+      <edge source="C-3PO" target="FINN" id="201" />
+      <edge source="C-3PO" target="ADMIRAL STATURA" id="202" />
+      <edge source="KITSTER" target="WALD" id="203" />
+      <edge source="WALD" target="GREEDO" id="204" />
+      <edge source="OBI-WAN" target="TC-14" id="205" />
+      <edge source="OBI-WAN" target="BOSS NASS" id="206" />
+      <edge source="OBI-WAN" target="CAPTAIN PANAKA" id="207" />
+      <edge source="OBI-WAN" target="RIC OLIE" id="208" />
+      <edge source="OBI-WAN" target="SIO BIBBLE" id="209" />
+      <edge source="OBI-WAN" target="YODA" id="210" />
+      <edge source="OBI-WAN" target="MACE WINDU" id="211" />
+      <edge source="OBI-WAN" target="KI-ADI-MUNDI" id="212" />
+      <edge source="OBI-WAN" target="CAPTAIN TYPHO" id="213" />
+      <edge source="OBI-WAN" target="PK-4" id="214" />
+      <edge source="OBI-WAN" target="TAUN WE" id="215" />
+      <edge source="OBI-WAN" target="LAMA SU" id="216" />
+      <edge source="OBI-WAN" target="BOBA FETT" id="217" />
+      <edge source="OBI-WAN" target="JANGO FETT" id="218" />
+      <edge source="OBI-WAN" target="BAIL ORGANA" id="219" />
+      <edge source="OBI-WAN" target="EMPEROR" id="220" />
+      <edge source="OBI-WAN" target="SENATOR ASK AAK" id="221" />
+      <edge source="OBI-WAN" target="SUN RIT" id="222" />
+      <edge source="OBI-WAN" target="POGGLE" id="223" />
+      <edge source="OBI-WAN" target="NUTE GUNRAY" id="224" />
+      <edge source="OBI-WAN" target="COUNT DOOKU" id="225" />
+      <edge source="OBI-WAN" target="ODD BALL" id="226" />
+      <edge source="OBI-WAN" target="GENERAL GRIEVOUS" id="227" />
+      <edge source="OBI-WAN" target="CLONE COMMANDER CODY" id="228" />
+      <edge source="OBI-WAN" target="TION MEDON" id="229" />
+      <edge source="OBI-WAN" target="LUKE" id="230" />
+      <edge source="OBI-WAN" target="LEIA" id="231" />
+      <edge source="OBI-WAN" target="HAN" id="232" />
+      <edge source="JABBA" target="FODE/BEED" id="233" />
+      <edge source="JABBA" target="HAN" id="234" />
+      <edge source="JABBA" target="LUKE" id="235" />
+      <edge source="JABBA" target="BOUSHH" id="236" />
+      <edge source="JABBA" target="BIB FORTUNA" id="237" />
+      <edge source="GREEDO" target="HAN" id="238" />
+      <edge source="CAPTAIN PANAKA" target="EMPEROR" id="239" />
+      <edge source="CAPTAIN PANAKA" target="SIO BIBBLE" id="240" />
+      <edge source="CAPTAIN PANAKA" target="RIC OLIE" id="241" />
+      <edge source="CAPTAIN PANAKA" target="BOSS NASS" id="242" />
+      <edge source="RIC OLIE" target="BRAVO TWO" id="243" />
+      <edge source="RIC OLIE" target="BRAVO THREE" id="244" />
+      <edge source="MACE WINDU" target="KI-ADI-MUNDI" id="245" />
+      <edge source="MACE WINDU" target="YODA" id="246" />
+      <edge source="MACE WINDU" target="RABE" id="247" />
+      <edge source="MACE WINDU" target="EMPEROR" id="248" />
+      <edge source="MACE WINDU" target="BAIL ORGANA" id="249" />
+      <edge source="MACE WINDU" target="SENATOR ASK AAK" id="250" />
+      <edge source="MACE WINDU" target="COUNT DOOKU" id="251" />
+      <edge source="MACE WINDU" target="CLONE COMMANDER CODY" id="252" />
+      <edge source="KI-ADI-MUNDI" target="YODA" id="253" />
+      <edge source="KI-ADI-MUNDI" target="RABE" id="254" />
+      <edge source="KI-ADI-MUNDI" target="EMPEROR" id="255" />
+      <edge source="KI-ADI-MUNDI" target="BAIL ORGANA" id="256" />
+      <edge source="KI-ADI-MUNDI" target="PLO KOON" id="257" />
+      <edge source="YODA" target="RABE" id="258" />
+      <edge source="YODA" target="EMPEROR" id="259" />
+      <edge source="YODA" target="BAIL ORGANA" id="260" />
+      <edge source="YODA" target="SENATOR ASK AAK" id="261" />
+      <edge source="YODA" target="COUNT DOOKU" id="262" />
+      <edge source="YODA" target="CLONE COMMANDER GREE" id="263" />
+      <edge source="YODA" target="CLONE COMMANDER CODY" id="264" />
+      <edge source="YODA" target="LUKE" id="265" />
+      <edge source="BRAVO TWO" target="BRAVO THREE" id="266" />
+      <edge source="SIO BIBBLE" target="EMPEROR" id="267" />
+      <edge source="SIO BIBBLE" target="NUTE GUNRAY" id="268" />
+      <edge source="SOLA" target="JOBAL" id="269" />
+      <edge source="SOLA" target="RUWEE" id="270" />
+      <edge source="JOBAL" target="RUWEE" id="271" />
+      <edge source="OWEN" target="BERU" id="272" />
+      <edge source="OWEN" target="CLIEGG" id="273" />
+      <edge source="OWEN" target="LUKE" id="274" />
+      <edge source="BERU" target="CLIEGG" id="275" />
+      <edge source="BERU" target="LUKE" id="276" />
+      <edge source="BERU" target="LEIA" id="277" />
+      <edge source="SUN RIT" target="POGGLE" id="278" />
+      <edge source="SUN RIT" target="NUTE GUNRAY" id="279" />
+      <edge source="SUN RIT" target="COUNT DOOKU" id="280" />
+      <edge source="POGGLE" target="NUTE GUNRAY" id="281" />
+      <edge source="POGGLE" target="COUNT DOOKU" id="282" />
+      <edge source="NUTE GUNRAY" target="TC-14" id="283" />
+      <edge source="NUTE GUNRAY" target="DOFINE" id="284" />
+      <edge source="NUTE GUNRAY" target="RUNE" id="285" />
+      <edge source="NUTE GUNRAY" target="TEY HOW" id="286" />
+      <edge source="NUTE GUNRAY" target="EMPEROR" id="287" />
+      <edge source="NUTE GUNRAY" target="DARTH MAUL" id="288" />
+      <edge source="NUTE GUNRAY" target="GENERAL CEEL" id="289" />
+      <edge source="NUTE GUNRAY" target="COUNT DOOKU" id="290" />
+      <edge source="NUTE GUNRAY" target="GENERAL GRIEVOUS" id="291" />
+      <edge source="COUNT DOOKU" target="JANGO FETT" id="292" />
+      <edge source="COUNT DOOKU" target="EMPEROR" id="293" />
+      <edge source="EMPEROR" target="RUNE" id="294" />
+      <edge source="EMPEROR" target="DARTH MAUL" id="295" />
+      <edge source="EMPEROR" target="VALORUM" id="296" />
+      <edge source="EMPEROR" target="BAIL ORGANA" id="297" />
+      <edge source="EMPEROR" target="GENERAL CEEL" id="298" />
+      <edge source="EMPEROR" target="SENATOR ASK AAK" id="299" />
+      <edge source="EMPEROR" target="ORN FREE TAA" id="300" />
+      <edge source="EMPEROR" target="LUKE" id="301" />
+      <edge source="BAIL ORGANA" target="VALORUM" id="302" />
+      <edge source="BAIL ORGANA" target="SENATOR ASK AAK" id="303" />
+      <edge source="BAIL ORGANA" target="FANG ZAR" id="304" />
+      <edge source="BAIL ORGANA" target="MON MOTHMA" id="305" />
+      <edge source="BAIL ORGANA" target="GIDDEAN DANU" id="306" />
+      <edge source="BAIL ORGANA" target="CAPTAIN ANTILLES" id="307" />
+      <edge source="LEIA" target="BB-8" id="308" />
+      <edge source="LEIA" target="LUKE" id="309" />
+      <edge source="LEIA" target="MOTTI" id="310" />
+      <edge source="LEIA" target="TARKIN" id="311" />
+      <edge source="LEIA" target="HAN" id="312" />
+      <edge source="LEIA" target="BIGGS" id="313" />
+      <edge source="LEIA" target="RED LEADER" id="314" />
+      <edge source="LEIA" target="RIEEKAN" id="315" />
+      <edge source="LEIA" target="DERLIN" id="316" />
+      <edge source="LEIA" target="LANDO" id="317" />
+      <edge source="LEIA" target="BOBA FETT" id="318" />
+      <edge source="LEIA" target="BOUSHH" id="319" />
+      <edge source="LEIA" target="MON MOTHMA" id="320" />
+      <edge source="LEIA" target="ADMIRAL ACKBAR" id="321" />
+      <edge source="LEIA" target="POE" id="322" />
+      <edge source="LEIA" target="FINN" id="323" />
+      <edge source="LEIA" target="SNAP" id="324" />
+      <edge source="LEIA" target="ADMIRAL STATURA" id="325" />
+      <edge source="LEIA" target="REY" id="326" />
+      <edge source="MOTTI" target="TARKIN" id="327" />
+      <edge source="PIETT" target="OZZEL" id="328" />
+      <edge source="PIETT" target="NEEDA" id="329" />
+      <edge source="PIETT" target="BOBA FETT" id="330" />
+      <edge source="BOBA FETT" target="TAUN WE" id="331" />
+      <edge source="BOBA FETT" target="JANGO FETT" id="332" />
+      <edge source="BOBA FETT" target="LANDO" id="333" />
+      <edge source="BOBA FETT" target="HAN" id="334" />
+      <edge source="LANDO" target="HAN" id="335" />
+      <edge source="LANDO" target="LUKE" id="336" />
+      <edge source="LANDO" target="MON MOTHMA" id="337" />
+      <edge source="LANDO" target="ADMIRAL ACKBAR" id="338" />
+      <edge source="LANDO" target="WEDGE" id="339" />
+      <edge source="HAN" target="BB-8" id="340" />
+      <edge source="HAN" target="LUKE" id="341" />
+      <edge source="HAN" target="RIEEKAN" id="342" />
+      <edge source="HAN" target="ZEV" id="343" />
+      <edge source="HAN" target="BOUSHH" id="344" />
+      <edge source="HAN" target="MON MOTHMA" id="345" />
+      <edge source="HAN" target="ADMIRAL ACKBAR" id="346" />
+      <edge source="HAN" target="REY" id="347" />
+      <edge source="HAN" target="FINN" id="348" />
+      <edge source="HAN" target="BALA-TIK" id="349" />
+      <edge source="HAN" target="MAZ" id="350" />
+      <edge source="HAN" target="POE" id="351" />
+      <edge source="HAN" target="SNAP" id="352" />
+      <edge source="HAN" target="ADMIRAL STATURA" id="353" />
+      <edge source="HAN" target="CAPTAIN PHASMA" id="354" />
+      <edge source="HAN" target="KYLO REN" id="355" />
+      <edge source="LUKE" target="CAMIE" id="356" />
+      <edge source="LUKE" target="BIGGS" id="357" />
+      <edge source="LUKE" target="DODONNA" id="358" />
+      <edge source="LUKE" target="GOLD LEADER" id="359" />
+      <edge source="LUKE" target="WEDGE" id="360" />
+      <edge source="LUKE" target="RED LEADER" id="361" />
+      <edge source="LUKE" target="RED TEN" id="362" />
+      <edge source="LUKE" target="DACK" id="363" />
+      <edge source="LUKE" target="ZEV" id="364" />
+      <edge source="LUKE" target="BIB FORTUNA" id="365" />
+      <edge source="LUKE" target="MON MOTHMA" id="366" />
+      <edge source="LUKE" target="ADMIRAL ACKBAR" id="367" />
+      <edge source="LUKE" target="REY" id="368" />
+      <edge source="BB-8" target="POE" id="369" />
+      <edge source="BB-8" target="LOR SAN TEKKA" id="370" />
+      <edge source="BB-8" target="REY" id="371" />
+      <edge source="BB-8" target="UNKAR PLUTT" id="372" />
+      <edge source="BB-8" target="FINN" id="373" />
+      <edge source="BB-8" target="BALA-TIK" id="374" />
+      <edge source="BB-8" target="MAZ" id="375" />
+      <edge source="BIGGS" target="CAMIE" id="376" />
+      <edge source="BIGGS" target="RED LEADER" id="377" />
+      <edge source="BIGGS" target="WEDGE" id="378" />
+      <edge source="BIGGS" target="GOLD LEADER" id="379" />
+      <edge source="FINN" target="CAPTAIN PHASMA" id="380" />
+      <edge source="FINN" target="POE" id="381" />
+      <edge source="FINN" target="REY" id="382" />
+      <edge source="FINN" target="BALA-TIK" id="383" />
+      <edge source="FINN" target="MAZ" id="384" />
+      <edge source="FINN" target="SNAP" id="385" />
+      <edge source="FINN" target="ADMIRAL ACKBAR" id="386" />
+      <edge source="FINN" target="ADMIRAL STATURA" id="387" />
+      <edge source="FINN" target="KYLO REN" id="388" />
+      <edge source="REY" target="UNKAR PLUTT" id="389" />
+      <edge source="REY" target="BALA-TIK" id="390" />
+      <edge source="REY" target="MAZ" id="391" />
+      <edge source="REY" target="KYLO REN" id="392" />
+      <edge source="POE" target="LOR SAN TEKKA" id="393" />
+      <edge source="POE" target="KYLO REN" id="394" />
+      <edge source="POE" target="CAPTAIN PHASMA" id="395" />
+      <edge source="POE" target="SNAP" id="396" />
+      <edge source="POE" target="ADMIRAL ACKBAR" id="397" />
+      <edge source="POE" target="ADMIRAL STATURA" id="398" />
+      <edge source="POE" target="ELLO ASTY" id="399" />
+      <edge source="POE" target="NIV LEK" id="400" />
+      <edge source="POE" target="JESS" id="401" />
+      <edge source="POE" target="YOLO ZIFF" id="402" />
+      <edge source="KYLO REN" target="LOR SAN TEKKA" id="403" />
+      <edge source="KYLO REN" target="CAPTAIN PHASMA" id="404" />
+      <edge source="KYLO REN" target="GENERAL HUX" id="405" />
+      <edge source="KYLO REN" target="LIEUTENANT MITAKA" id="406" />
+      <edge source="KYLO REN" target="SNOKE" id="407" />
+      <edge source="CAPTAIN PHASMA" target="LOR SAN TEKKA" id="408" />
+      <edge source="CAPTAIN PHASMA" target="GENERAL HUX" id="409" />
+      <edge source="PK-4" target="TC-14" id="410" />
+      <edge source="TC-14" target="DOFINE" id="411" />
+      <edge source="DOFINE" target="TEY HOW" id="412" />
+      <edge source="RUNE" target="TEY HOW" id="413" />
+      <edge source="RUNE" target="DARTH MAUL" id="414" />
+      <edge source="DARTH MAUL" target="GENERAL CEEL" id="415" />
+      <edge source="SENATOR ASK AAK" target="ORN FREE TAA" id="416" />
+      <edge source="TAUN WE" target="LAMA SU" id="417" />
+      <edge source="TAUN WE" target="JANGO FETT" id="418" />
+      <edge source="FANG ZAR" target="MON MOTHMA" id="419" />
+      <edge source="FANG ZAR" target="GIDDEAN DANU" id="420" />
+      <edge source="MON MOTHMA" target="GIDDEAN DANU" id="421" />
+      <edge source="MON MOTHMA" target="ADMIRAL ACKBAR" id="422" />
+      <edge source="DODONNA" target="GOLD LEADER" id="423" />
+      <edge source="DODONNA" target="WEDGE" id="424" />
+      <edge source="GOLD LEADER" target="WEDGE" id="425" />
+      <edge source="GOLD LEADER" target="RED LEADER" id="426" />
+      <edge source="WEDGE" target="RED LEADER" id="427" />
+      <edge source="WEDGE" target="JANSON" id="428" />
+      <edge source="WEDGE" target="ADMIRAL ACKBAR" id="429" />
+      <edge source="RED LEADER" target="RED TEN" id="430" />
+      <edge source="ADMIRAL ACKBAR" target="SNAP" id="431" />
+      <edge source="ADMIRAL ACKBAR" target="ADMIRAL STATURA" id="432" />
+      <edge source="GENERAL HUX" target="LIEUTENANT MITAKA" id="433" />
+      <edge source="GENERAL HUX" target="SNOKE" id="434" />
+      <edge source="GENERAL HUX" target="COLONEL DATOO" id="435" />
+      <edge source="SNAP" target="ADMIRAL STATURA" id="436" />
+      <edge source="SNAP" target="JESS" id="437" />
+      <edge source="ELLO ASTY" target="NIV LEK" id="438" />
+      <edge source="ELLO ASTY" target="JESS" id="439" />
+      <edge source="ELLO ASTY" target="YOLO ZIFF" id="440" />
+      <edge source="JESS" target="NIV LEK" id="441" />
+      <edge source="JESS" target="YOLO ZIFF" id="442" />
+      <edge source="NIV LEK" target="YOLO ZIFF" id="443" />
+    </edges>
+  </graph>
+</gexf>
