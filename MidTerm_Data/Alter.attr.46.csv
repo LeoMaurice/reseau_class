@@ -1,0 +1,46 @@
+alter_ID;ego_ID;alter_num;alter.sex;alter.age.cat;alter.rel;alter.nat;alter.res;alter.clo;alter.loan;alter.fam;alter.age
+4601;46;1;Female;31-35;Close family;Sri Lanka;Italy;NA;NA;Yes;32
+4602;46;2;Female;51-60;Close family;Sri Lanka;Sri Lanka;NA;NA;Yes;56
+4603;46;3;Male;51-60;Other family;Sri Lanka;Sri Lanka;5;Yes;Yes;53
+4604;46;4;Female;51-60;Other family;Sri Lanka;Sri Lanka;5;Yes;Yes;56
+4605;46;5;Male;36-40;Other family;Sri Lanka;Italy;5;Yes;Yes;37
+4606;46;6;Female;36-40;Other family;Sri Lanka;Italy;4;Yes;Yes;40
+4607;46;7;Male;36-40;Other family;Sri Lanka;Italy;5;Yes;Yes;39
+4608;46;8;Female;31-35;Other family;Sri Lanka;Italy;3;No;Yes;34
+4609;46;9;Female;51-60;Friends;Other;Italy;5;Yes;No;53
+4610;46;10;Female;41-50;Friends;Other;Italy;4;Yes;No;45
+4611;46;11;Male;41-50;Acquaintances;Italy;Italy;2;Yes;No;45
+4612;46;12;Female;41-50;Acquaintances;Italy;Italy;3;Yes;No;42
+4613;46;13;Male;51-60;Friends;Italy;Italy;4;No;No;54
+4614;46;14;Male;60+;Acquaintances;Italy;Italy;2;No;No;93
+4615;46;15;Male;41-50;Acquaintances;Other;Italy;3;No;No;42
+4616;46;16;Male;36-40;Other family;Sri Lanka;Italy;3;Yes;Yes;39
+4617;46;17;Female;36-40;Other family;Sri Lanka;Italy;3;Yes;Yes;37
+4618;46;18;Male;31-35;Friends;Sri Lanka;Sri Lanka;4;No;No;32
+4619;46;19;Male;31-35;Friends;Sri Lanka;Italy;5;Yes;No;34
+4620;46;20;Female;31-35;Acquaintances;Sri Lanka;Italy;3;No;No;34
+4621;46;21;Male;41-50;Other family;Sri Lanka;Sri Lanka;4;Yes;Yes;42
+4622;46;22;Male;41-50;Acquaintances;Other;Italy;2;No;No;47
+4623;46;23;Male;36-40;Friends;Sri Lanka;Italy;4;Yes;No;37
+4624;46;24;Male;41-50;Friends;Sri Lanka;Italy;3;No;No;45
+4625;46;25;Female;41-50;Other family;Sri Lanka;Sri Lanka;5;Yes;Yes;48
+4626;46;26;Male;18-25;Other family;Sri Lanka;Sri Lanka;4;No;Yes;21
+4627;46;27;Female;36-40;Other family;Sri Lanka;Other;4;No;Yes;39
+4628;46;28;Male;51-60;Other family;Sri Lanka;Sri Lanka;4;No;Yes;54
+4629;46;29;Female;31-35;Close family;Sri Lanka;Sri Lanka;NA;NA;Yes;34
+4630;46;30;Female;36-40;Acquaintances;Italy;Italy;2;No;No;39
+4631;46;31;Female;36-40;Acquaintances;Italy;Italy;2;No;No;39
+4632;46;32;Male;31-35;Friends;Sri Lanka;Sri Lanka;4;Yes;No;34
+4633;46;33;Male;31-35;Friends;Sri Lanka;Other;4;No;No;34
+4634;46;34;Female;60+;Acquaintances;Italy;Italy;1;No;No;96
+4635;46;35;Male;41-50;Acquaintances;Sri Lanka;Italy;3;No;No;47
+4636;46;36;Female;41-50;Acquaintances;Sri Lanka;Italy;2;No;No;46
+4637;46;37;Male;31-35;Friends;Sri Lanka;Italy;4;Yes;No;34
+4638;46;38;Male;41-50;Acquaintances;Sri Lanka;Italy;3;No;No;47
+4639;46;39;Male;26-30;Friends;Sri Lanka;Italy;5;Yes;No;30
+4640;46;40;Male;41-50;Acquaintances;Other;Italy;2;No;No;43
+4641;46;41;Male;36-40;Acquaintances;Sri Lanka;Italy;3;No;No;39
+4642;46;42;Male;31-35;Friends;Sri Lanka;Italy;4;No;No;32
+4643;46;43;Male;36-40;Acquaintances;Sri Lanka;Italy;3;No;No;39
+4644;46;44;Male;36-40;Acquaintances;Sri Lanka;Italy;3;No;No;37
+4645;46;45;Female;41-50;Other family;Sri Lanka;Sri Lanka;3;No;Yes;48
