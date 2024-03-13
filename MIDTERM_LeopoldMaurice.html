@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>midterm_leopoldmaurice</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="MIDTERM_LeopoldMaurice_files/libs/clipboard/clipboard.min.js"></script>
+<script src="MIDTERM_LeopoldMaurice_files/libs/quarto-html/quarto.js"></script>
+<script src="MIDTERM_LeopoldMaurice_files/libs/quarto-html/popper.min.js"></script>
+<script src="MIDTERM_LeopoldMaurice_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="MIDTERM_LeopoldMaurice_files/libs/quarto-html/anchor.min.js"></script>
+<link href="MIDTERM_LeopoldMaurice_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="MIDTERM_LeopoldMaurice_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="MIDTERM_LeopoldMaurice_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="MIDTERM_LeopoldMaurice_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="MIDTERM_LeopoldMaurice_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> networkx <span class="im">as</span> nx</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="part-a" class="level1">
+<h1>Part A</h1>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>G <span class="op">=</span> nx.read_edgelist(<span class="st">'./MidTerm_Data/ELfriend_edgelist.txt'</span>,comments<span class="op">=</span><span class="st">"node"</span>,create_using<span class="op">=</span>nx.DiGraph(),nodetype<span class="op">=</span><span class="bu">int</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>nodes_with_attributes <span class="op">=</span> pd.read_table(<span class="st">"./MidTerm_Data/ElnodeAttributes.txt"</span>, sep<span class="op">=</span><span class="st">'</span><span class="ch">\t</span><span class="st">'</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>nodes_with_attributesData <span class="op">=</span> nodes_with_attributes.set_index(<span class="st">'Node'</span>).to_dict(<span class="st">'index'</span>).items()</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>G.add_nodes_from(nodes_with_attributesData)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>nx.draw(G)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="MIDTERM_LeopoldMaurice_files/figure-html/cell-4-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">1.</h2>
+<div class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"There are </span><span class="sc">{</span><span class="bu">len</span>(G.nodes())<span class="sc">}</span><span class="ss"> nodes in the friendship network."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>There are 71 nodes in the friendship network.</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"There are </span><span class="sc">{</span><span class="bu">len</span>(G.edges())<span class="sc">}</span><span class="ss"> nodes in the friendship network."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>There are 575 nodes in the friendship network.</code></pre>
+</div>
+</div>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2</h2>
+<p>In a directed graph with N nodes, we have N*(N-1) potential edges. Applied here it gives :</p>
+<div class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> <span class="bu">len</span>(G.nodes())</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"There are at maximum </span><span class="sc">{</span>n<span class="op">*</span>(n<span class="op">-</span><span class="dv">1</span>)<span class="sc">}</span><span class="ss"> edges in our graph of </span><span class="sc">{</span>n<span class="sc">}</span><span class="ss"> nodes.</span><span class="ch">\n</span><span class="ss">We have a ratio of existing to potential edges of </span><span class="sc">{</span><span class="bu">len</span>(G.edges())<span class="op">/</span>(n<span class="op">*</span>(n<span class="op">-</span><span class="dv">1</span>))<span class="sc">:.2}</span><span class="ss">."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>There are at maximum 4970 edges in our graph of 71 nodes.
+We have a ratio of existing to potential edges of 0.12.</code></pre>
+</div>
+</div>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">3</h2>
+<div class="cell" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"There are </span><span class="sc">{</span><span class="bu">len</span>(<span class="bu">list</span>(nx.isolates(G)))<span class="sc">}</span><span class="ss"> advocates without friends."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>There are 2 advocates without friends.</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"We got the following caracteristics for our isolated advocates."</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>nodes_with_attributes[nodes_with_attributes[<span class="st">"Node"</span>].isin(<span class="bu">list</span>(nx.isolates(G)))]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>We got the following caracteristics for our isolated advocates.</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="8">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Node</th>
+      <th>Status</th>
+      <th>Gender</th>
+      <th>Office</th>
+      <th>Senior</th>
+      <th>Age</th>
+      <th>Spec</th>
+      <th>School</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>43</th>
+      <td>44</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+      <td>5</td>
+      <td>53</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>47</td>
+      <td>2</td>
+      <td>1</td>
+      <td>3</td>
+      <td>3</td>
+      <td>38</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">4</h2>
+<div class="cell" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"We got the following dyads reciprocity : </span><span class="sc">{</span>nx<span class="sc">.</span>reciprocity(G)<span class="sc">:.2}</span><span class="ss">."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>We got the following dyads reciprocity : 0.61.</code></pre>
+</div>
+</div>
+<p>We have 61% of the edges that are reciprocal : 61% of declarations of friendship are mutual. It does not seems that consistent in regards to the very personnal things that friendship is.</p>
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4">5</h2>
+<div class="cell" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"We got the following triads transitivity : </span><span class="sc">{</span>nx<span class="sc">.</span>transitivity(G)<span class="sc">:.2}</span><span class="ss">."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>We got the following triads transitivity : 0.35.</code></pre>
+</div>
+</div>
+<p>We have only 35% of the actual triangle (the friend of my friend is my friend) out of all the possible triads. Maybe there is a group of very close friend that declare friendship with all the others of the group, leaving the rest of the advocates more into mutual friendships. It is what suggest the very close drawing of the graph. 35% is better than random but it is the lower end of empirical networks. This can be supported by the fact that we have very high and very low value in the clustering index (local transitivity) :</p>
+<div class="cell" data-execution_count="11">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(nx.clustering(G))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{1: 0.6142857142857143, 2: 0.5229885057471264, 4: 0.37468671679197996, 8: 0.37037037037037035, 17: 0.31218905472636815, 16: 0.2533783783783784, 22: 0.5625, 26: 0.38100436681222705, 3: 0.25, 9: 0.5978260869565217, 11: 0.5301204819277109, 12: 0.3548009367681499, 14: 0.29069767441860467, 19: 0.28846153846153844, 21: 0.536734693877551, 23: 0.7037037037037037, 27: 0.4858490566037736, 29: 0.40710382513661203, 5: 0.17307692307692307, 7: 0.2, 18: 0.47093023255813954, 25: 0.3602941176470588, 24: 0.3542483660130719, 10: 0.5503355704697986, 13: 0.34392014519056263, 34: 0.29770992366412213, 38: 0.3235294117647059, 15: 0.38461538461538464, 20: 0.45481927710843373, 41: 0.3110831234256927, 43: 0.3220108695652174, 52: 0.444636678200692, 6: 0, 28: 0.40594059405940597, 50: 0.504424778761062, 37: 0, 32: 0.5098039215686274, 39: 0.2867647058823529, 40: 0.38513513513513514, 31: 0.22916666666666666, 33: 0.30097087378640774, 35: 0.37575757575757573, 51: 0.6506849315068494, 58: 0.4013840830449827, 46: 0.38461538461538464, 60: 0.2903225806451613, 36: 0.26229508196721313, 57: 0.34068627450980393, 30: 0.33653846153846156, 42: 0.3675373134328358, 54: 0.5544217687074829, 56: 0.5204081632653061, 48: 0.3235294117647059, 49: 0.6829268292682927, 64: 0.21532846715328466, 45: 0.19767441860465115, 55: 0.3333333333333333, 65: 0.2757009345794392, 62: 0.53125, 59: 0.48484848484848486, 53: 0, 61: 0.8333333333333334, 63: 1.0, 66: 0.31547619047619047, 69: 0.6818181818181818, 70: 0.45901639344262296, 71: 0.65, 68: 0.37735849056603776, 67: 0.7631578947368421, 44: 0, 47: 0}</code></pre>
+</div>
+</div>
+</section>
+<section id="section-5" class="level2">
+<h2 class="anchored" data-anchor-id="section-5">6</h2>
+<p>Popularity is going to be interpreted as the in degree : the number of persons that declare the node as friend.</p>
+<div class="cell" data-execution_count="12">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>top_n <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"The top </span><span class="sc">{</span>top_n<span class="sc">}</span><span class="ss"> of the most popular advocat are :"</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>indegrees_val <span class="op">=</span> [val <span class="cf">for</span> (node, val) <span class="kw">in</span> G.in_degree()]</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>indegrees_node <span class="op">=</span> [node <span class="cf">for</span> (node, val) <span class="kw">in</span> G.in_degree()]</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>indegree <span class="op">=</span> pd.DataFrame({<span class="st">"node"</span>:indegrees_node,<span class="st">"in_degree"</span>:indegrees_val})</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>indegree.nlargest(top_n,<span class="st">"in_degree"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>The top 3 of the most popular advocat are :</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="12">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>node</th>
+      <th>in_degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>7</th>
+      <td>26</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>13</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>17</td>
+      <td>18</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="13">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"The attributes of </span><span class="sc">{</span>top_n<span class="sc">}</span><span class="ss"> most popular are :"</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>nodes_with_attributes[nodes_with_attributes[<span class="st">"Node"</span>].isin(indegree.nlargest(top_n,<span class="st">"in_degree"</span>).node.to_list())]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>The attributes of 3 most popular are :</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="13">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Node</th>
+      <th>Status</th>
+      <th>Gender</th>
+      <th>Office</th>
+      <th>Senior</th>
+      <th>Age</th>
+      <th>Spec</th>
+      <th>School</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>12</th>
+      <td>13</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>22</td>
+      <td>57</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>17</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>23</td>
+      <td>50</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>26</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>15</td>
+      <td>41</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="section-6" class="level2">
+<h2 class="anchored" data-anchor-id="section-6">7</h2>
+<p>If i is part of the very popular or those with a very high clustering index, maybe the rumor will spread. But there are certains advocates that either isolated - so the rumor cannot spread - or are friends with few people in a not mutual or not transitive way (low clustering). In that second case, the probability of propagession of a rumor seems very low.</p>
+</section>
+</section>
+<section id="part-b" class="level1">
+<h1>Part B</h1>
+<div class="cell" data-execution_count="14">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># use pandas to import list of egos with attributes</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>Egos <span class="op">=</span> pd.read_csv(<span class="st">'./MidTerm_Data/Ego.attr.csv'</span>, sep<span class="op">=</span><span class="st">';'</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># we focus on Ego n. 46 (the first in the list)</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># use pandas to import list of alters of Ego 46, with their attributes</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>Alters <span class="op">=</span> pd.read_csv(<span class="st">'./MidTerm_Data/Alter.attr.46.csv'</span>, sep<span class="op">=</span><span class="st">';'</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="co"># use pandas to import edgelist (of Ego 46) as a table</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>EgoEdges <span class="op">=</span> pd.read_table(<span class="st">'./MidTerm_Data/EgoNet.46.csv'</span>, sep<span class="op">=</span><span class="st">';'</span>)</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>EgoEdges <span class="op">=</span> nx.from_pandas_edgelist(EgoEdges, <span class="st">'V1'</span>, <span class="st">'V2'</span>, create_using<span class="op">=</span>nx.Graph()) </span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>NodeData <span class="op">=</span> Alters.set_index(<span class="st">'alter_ID'</span>).to_dict(<span class="st">'index'</span>).items()</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>EgoEdges.add_nodes_from(NodeData)</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>nx.draw(EgoEdges)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="MIDTERM_LeopoldMaurice_files/figure-html/cell-15-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<section id="section-7" class="level2">
+<h2 class="anchored" data-anchor-id="section-7">1.</h2>
+<div class="cell" data-execution_count="15">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"In 46 alter graph, there is only </span><span class="sc">{</span><span class="bu">len</span>(<span class="bu">list</span>(nx.isolates(EgoEdges)))<span class="sc">}</span><span class="ss"> isolate."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>In 46 alter graph, there is only 1 isolate.</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="16">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"The isolated friend in the network is : </span><span class="sc">{</span><span class="bu">list</span>(nx.isolates(EgoEdges))<span class="sc">}</span><span class="ss">."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>The isolated friend in the network is : [4624].</code></pre>
+</div>
+</div>
+<p>As there is 1 isolate (id 4624), it mean that 46 has one friend wich does not know any other friend of 46.</p>
+<div class="cell" data-execution_count="17">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>EgoEdges_without_isolate <span class="op">=</span> EgoEdges.copy()</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>EgoEdges_without_isolate.remove_nodes_from(<span class="bu">list</span>(nx.isolates(EgoEdges)))</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"We got the following triads transitivity : </span><span class="sc">{</span>nx<span class="sc">.</span>transitivity(EgoEdges_without_isolate)<span class="sc">:.2}</span><span class="ss">."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>We got the following triads transitivity : 0.61.</code></pre>
+</div>
+</div>
+<p>Apart from this only isolate, we got a global transitivy index of 61% which is the upper bound of empirical findings. It means the Ego 46 is part of a very close group of friends that know each other quite well. In addition to that group, he knows one other person.</p>
+</section>
+<section id="section-8" class="level2">
+<h2 class="anchored" data-anchor-id="section-8">2</h2>
+<div class="cell" data-execution_count="18">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>Egos[Egos[<span class="st">"ego_ID"</span>]<span class="op">==</span><span class="dv">46</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="18">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>ego_ID</th>
+      <th>ego.sex</th>
+      <th>ego.age</th>
+      <th>ego.arr</th>
+      <th>ego.edu</th>
+      <th>ego.inc</th>
+      <th>empl</th>
+      <th>ego.empl.bin</th>
+      <th>ego.age.cat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>7</th>
+      <td>46</td>
+      <td>Male</td>
+      <td>35.0</td>
+      <td>2002.0</td>
+      <td>Secondary</td>
+      <td>1200.0</td>
+      <td>4</td>
+      <td>Yes</td>
+      <td>31-35</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="19">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>Alters[<span class="st">"alter.age.cat"</span>].value_counts(normalize<span class="op">=</span><span class="va">True</span>)<span class="op">*</span><span class="dv">100</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="19">
+<pre><code>41-50    28.888889
+36-40    26.666667
+31-35    22.222222
+51-60    13.333333
+60+       4.444444
+18-25     2.222222
+26-30     2.222222
+Name: alter.age.cat, dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="20">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>Alters[<span class="st">"alter.age"</span>].describe()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="20">
+<pre><code>count    45.000000
+mean     43.288889
+std      13.530474
+min      21.000000
+25%      34.000000
+50%      39.000000
+75%      47.000000
+max      96.000000
+Name: alter.age, dtype: float64</code></pre>
+</div>
+</div>
+<p>Ego 46 friends are most in the 40s or their 30s with a mean of 45 and a median of 39 years old. There is not a lot of diversity with 25% quantile being at 34 and 75% quantile at 47 : it seems like ego 46 knows mostly people from a work place. Students (&lt;25) or retired people are not really in his friend list. It is quite logical as Ego 46 himself is 35 years old.</p>
+</section>
+<section id="section-9" class="level2">
+<h2 class="anchored" data-anchor-id="section-9">3</h2>
+<div class="cell" data-execution_count="21">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>Alters[<span class="st">"alter.rel"</span>].value_counts(normalize<span class="op">=</span><span class="va">True</span>)<span class="op">*</span><span class="dv">100</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="21">
+<pre><code>Acquaintances    35.555556
+Other family     31.111111
+Friends          26.666667
+Close family      6.666667
+Name: alter.rel, dtype: float64</code></pre>
+</div>
+</div>
+<p>Almost two thirds of Ego 46 friends are considered as friends or acquaintances, so family in a brought sense (other + close) is not the main source of relations. And if we considere close family it is quite small : nuclear family (parents + 2 children, something like that).</p>
+</section>
+<section id="section-10" class="level2">
+<h2 class="anchored" data-anchor-id="section-10">4</h2>
+<div class="cell" data-execution_count="22">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>Alters[<span class="st">"alter.nat"</span>].value_counts(normalize<span class="op">=</span><span class="va">True</span>)<span class="op">*</span><span class="dv">100</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="22">
+<pre><code>Sri Lanka    73.333333
+Italy        15.555556
+Other        11.111111
+Name: alter.nat, dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="23">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> blau(df, col):</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (<span class="dv">1</span><span class="op">-</span> ((df[col].value_counts() <span class="op">/</span> df[col].count()) <span class="op">**</span> <span class="dv">2</span>).<span class="bu">sum</span>())</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="co"># blau index</span></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>blau(Alters, <span class="st">'alter.nat'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="23">
+<pre><code>0.42567901234567906</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="24">
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We can now calculate the IQV</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>blau(Alters, <span class="st">'alter.nat'</span>)<span class="op">*</span><span class="dv">3</span><span class="op">/</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="24">
+<pre><code>0.6385185185185186</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="25">
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Herfindahl-Hirschman index (HHI)</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a><span class="co"># equal to 1 - Blau</span></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="op">-</span> blau(Alters, <span class="st">'alter.nat'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="25">
+<pre><code>0.5743209876543209</code></pre>
+</div>
+</div>
+<p>Sri Lanka origin dominates Ego 46 relationships. Using the different heterogeinety index we can also see that. As the blau index is only 0.5, there is only a half chance that two members randomly selected from a group would be in different categories, which is quite low for 3 categories.</p>
+</section>
+<section id="section-11" class="level2">
+<h2 class="anchored" data-anchor-id="section-11">5</h2>
+<div class="cell" data-execution_count="26">
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># density</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>nx.density(EgoEdges) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="26">
+<pre><code>0.2696969696969697</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="27">
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Transitivity</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(nx.transitivity(EgoEdges)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>0.6147730187227495</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="28">
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Diameter</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>nx.diameter(EgoEdges_without_isolate)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="28">
+<pre><code>4</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="29">
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>nx.average_shortest_path_length(EgoEdges_without_isolate)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="29">
+<pre><code>1.9323467230443974</code></pre>
+</div>
+</div>
+<p>Apart from the isolate friend, most of the other friends know each other : high transitivy. The average shortest path speaks for itself : it is between 1 and 2, meaning that a lot of friends know each other and the rest are distant from only 1 friend.</p>
+<p>Ego 46 friend seems cohesive a part from one friend.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
